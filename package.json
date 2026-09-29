@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-find-up",
+  "version": "1.0.0",
+  "description": "Finds files or directories by walking upward through parent directories.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.find-up.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.find-up/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.find-up#readme",
+  "keywords": [
+    "find-up",
+    "filesystem",
+    "config",
+    "package-json"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
